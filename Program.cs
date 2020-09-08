@@ -15,19 +15,19 @@ namespace Task_28
     }
     class Player
     {
-        public int Health;
-        public int Damage;
-        public int Armor;
+        int _health;
+        int _damage;
+        int _armor;
 
         public Player(int health, int damage, int armor)
         {
-            Health = health;
-            Damage = damage;
-            Armor = armor;
+            _health = health;
+            _damage = damage;
+            _armor = armor;
         }        
         public void ShowStats()
         {
-            Console.WriteLine($"Кол-во жизней - {Health}\nУрон -  {Damage}\nСкорость атаки - {Armor}\n");
+            Console.WriteLine($"Кол-во жизней - {_health}\nУрон -  {_damage}\nСкорость атаки - {_armor}\n");
         }
     }
 }
