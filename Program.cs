@@ -15,9 +15,9 @@ namespace Task_28
     }
     class Player
     {
-        int _health;
-        int _damage;
-        int _armor;
+        private int _health;
+        private int _damage;
+        private int _armor;
 
         public Player(int health, int damage, int armor)
         {
